@@ -1,0 +1,98 @@
+.header {
+  background-color: rgb(236, 250, 255);
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  position: absolute;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.headerElements {
+  list-style: none;
+  font-weight: 600;
+}
+
+.headerElements li {
+  display: inline-block;
+}
+
+.Card1 {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.Card-Details {
+  padding: 20px;
+  border-radius: 7px;
+  background-color: white;
+  filter: drop-shadow(5px 5px 5px grey);
+}
+
+.Card-Details:hover {
+  transition: all 0.5s ease 0s;
+  filter: drop-shadow(10px 10px 10px grey);
+}
+
+.content {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.Role {
+  font-size: 12px;
+  color: #0ea2f6;
+}
+
+.Education {
+  font-size: 12px;
+}
+hr {
+  margin: 10px;
+}
+.Name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.OtherTitle {
+  font-size: 12px;
+}
+
+.sinceData {
+  background-color: rgb(222, 222, 222);
+  padding: 10px;
+  margin: 2px;
+  font-size: 14px;
+  font-weight: 600;
+  width: max-content;
+}
+
+.ExpData1 {
+  background-color: rgb(201, 240, 255);
+  padding: 10px;
+  margin: 2px;
+  color: rgb(0, 134, 186);
+  font-size: 14px;
+  font-weight: 600;
+  width: max-content;
+}
+.profile img {
+  height: 100%;
+  width: 100%;
+}
+.Data {
+  margin-top: 20px;
+}
+.view {
+  text-align: center;
+  margin-top: 20px;
+}
+.view:hover {
+  color: #0ea2f6;
+}

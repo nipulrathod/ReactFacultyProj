@@ -1,0 +1,70 @@
+.App {
+  font-family: "poppins";
+  text-align: center;
+}
+/* * {
+  font-family: "Poppins";
+} */
+footer {
+  position: fixed;
+  font-family: "poppins" sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #303041;
+  color: #f4fcfe;
+  text-align: center;
+  height: 30px;
+}
+
+#CardDiv1 {
+  margin-left: 5%;
+}
+
+#CardDiv {
+  box-shadow: 0 4px 8px 0 lightgray;
+  margin: 15px;
+  padding: 0px;
+}
+
+#CardDiv:hover {
+  transition: 0.3s;
+  box-shadow: 0 10px 20px 0 lightgray;
+}
+
+#FacultyFilterBtn {
+  width: 5%;
+  margin-right: 105px;
+  border-radius: 10px;
+  border-style: none;
+  font-weight: bold;
+  padding: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  /* background-color: rgb(18, 28, 166); */
+  /* color: white; */
+}
+
+#FacultyFilterBtn:hover {
+  box-shadow: 0px 0px 15px 0 lightgray;
+  opacity: 0.9;
+  transition: 0.3s;
+}
+
+.para {
+  margin-bottom: "50%";
+}
+.head {
+  align-items: left;
+}
+.btn {
+  border: "2px";
+  border-radius: "15px";
+  color: #f4fcfe;
+  background-color: #0ea2f6;
+  box-shadow: 0 5px 9px rgba(0, 0, 0, 0.5);
+}
+.btn:hover {
+  background-color: #f4fcfe;
+}
